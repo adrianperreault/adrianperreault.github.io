@@ -1,0 +1,347 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="author" content="Kemal Erdem">
+
+  <title>Presentation Template by Kemal Erdem</title>
+
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/custom.css">
+  <link rel="stylesheet" href="plugin/pointer/pointer.css">
+  <link rel="stylesheet" href="plugin/drawer/drawer.css">
+  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <!-- Theme used for syntax highlighting of code -->
+  <!-- <link rel="stylesheet" href="css/highlight/isbl-editor-light.css"> -->
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- ##### Title Slide ##### -->
+
+    <section class="main-slide">
+      <h2>Adrian Perreault</h2>
+      <small>Project Snapshot</small>
+    </section>
+
+    <!-- ##### E22 ##### -->
+
+    <!-- <section class="main-slide">
+      <h2>E22</h2>
+      <small> </small>
+      </br>
+    </section> -->
+
+      <section>
+        <section data-auto-animate>
+          <h2>E22 Game Engine</h2>
+          </br>
+          <!-- <video controls style="height: 512px;"  src="assets/VideoClips/E22/animationSystem.mp4"></video> -->
+        </section>
+
+        <section data-auto-animate>
+          <!-- <h2></h2> </br> -->
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/animationSystem.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>PBR Rendering</li>
+            <li>GLTF model & animation support </li>
+            <li>Nearly all systems and file format support is written from scratch (very few external libraries used)</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/carChase1.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Vehicle chase AI</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/carChase2.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/3DNodeInterface.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>User Interface in 3D </li>
+            <li>(uses ray casting projected on to a flat plane)</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/Hardware/ps4Noodles.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>PS4 controller support</li>
+            <li>(also supported: Nintendo Joycon, SpaceNavigator 3D Mouse, Maschine MK2, Faderport, midi devices) </li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/Hardware/skinning.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>3D model skinning! (The noodle models bend with their bones) </li>
+            <li>(Often regarded as one of the hardest aspects of engine development to get working correctly)</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/cSound.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>CSound audio support</li>
+            <li>Processed on a separate thread</li>
+            <li>Channel-based message passing for audio events and control data</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/editor.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Editor</li>
+            <li>Shown at the bottom: 2.6% of a single CPU core (of 16) used while updating user interface (excellent performance)</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/instancedCubeRendering.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Batched Instance Rendering</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/physicsEngine.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>E22's Physics Engine</li>
+            <li>A line-by-line re-write from Javascript to Nim of <a href="https://brm.io/matter-js/">Matter.js </a></li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/Shaders/bezierCurves.mp4"></video>
+
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/zumaCloneMarblePhysics.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Scheduler scheduling marble spawns </li>
+            <li>Embeded Lua VM for runtime scripting</li>
+            <li>Highly responsive physics collision system</li>
+
+          </ul>
+        </section>
+        
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/widgetLayoutSystem.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Native GUI System</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/widgetLayoutSystem2.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Flex container layout</li>
+          </ul>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/tileMapTMX.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>.tmx Tilemap support</li>
+          </ul>
+        </section>
+        </section>
+
+        <section data-auto-animate>
+          <h2></h2> </br>
+          <video muted autoplay controls loop style="height: 512px;"  
+          src="assets/VideoClips/E22/Shaders/prismSquares.mp4"></video>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Hot reloading shader workflow</li>
+            <li>Iterations of compiled shader 'snapshots' saved in local SQLite database</li>
+          </ul>
+        </section>
+      </section>
+
+      <!-- ##### G22 ##### -->
+      <section>
+
+        <section class="main-slide">
+          <h2>Project G22</h2>
+          <small>A high-level shader language and complier targeting SPIR-V bytecode </small>
+          </br>
+          <img src="assets/Images/SPIR-V/g22src.png" style="height: 512px;">
+          →
+          <img src="assets/Images/SPIR-V/spirvExample.png" style="height: 512px;">
+        </section>
+
+        <!-- ##### Working From Official Spec ##### -->
+        <section data-auto-animate>
+          <h2>SPIR-V Specification</h2>
+          </br>
+
+          <div class="r-stack">
+            <img class="fragment fade-in-then-out grow"  src="assets/Images/SPIR-V/specification_01.png" style="height: 256px">
+            <img class="fragment fade-in-then-out grow"  src="assets/Images/SPIR-V/specification_03.png" style="height: 512px">
+            <img class="fragment fade-in-then-out grow"  src="assets/Images/SPIR-V/specification_02.png" style="height: 512px">
+          </div>
+        </section>
+
+        <!-- ##### NPEG Grammar ##### -->
+        <section data-auto-animate>
+          <h2>First Parser</h2>
+          </br>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li> Wrote a PEG grammar for my language, generated a parser via nPeg library </li>
+            <li> ...wasn't robust enough</li>
+          </ul>
+          <img src="assets/Images/SPIR-V/originalPEGGrammar.png" style="height: 768px;">
+        </section>
+
+        <!-- ##### Hacked Nim Parser ##### -->
+        <section data-auto-animate>
+          <h3>Hacking Nim's Parser</h3>
+          </br>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>Already experienced with Nim's AST from macro metaprogramming</li>
+            <li>Q: Could I hack Nim's parser from the compiler and adapt it for my language? </li>
+            <li>A: Yup. </li>
+          </ul>
+          <div class="h-stack" style="width:160%">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/g22Files.png" style="position:relative;height: 512px;left:-300px">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/modifiedNimParser.png" style="position:relative;left:-300px; height: 512px">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/spirvgen_05.png" style="position:relative;left:-300px; height: 512px">
+          </div>
+        </section>
+
+        <!-- ##### Bytecode Assembler ##### -->
+        <section data-auto-animate>
+          <h3>Bytecode Assembler</h3>
+          </br>
+          <ul style="position:relative;width:90%;text-align:left;font-size:15px">
+            <li>With AST node data... </li>
+            <li> -> following SPIR-V spec</li>
+            <li> -> built bytecode assembler</li>
+            <li> -> produced conformant .SPV binary bytecode data</li>
+            <li> -> displayed a HelloWorld Triangle in engine (Woot!) </li>
+            <li> -> ...scrapped the project and wrote a higher level glsl markup/shader generator - because, pragmatism :) </li>
+
+          </ul>
+          <div class="r-stretch" style="width:2000px">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/spirvgen_01.png" style="height: 512px">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/spirvgen_02.png" style="height: 512px">
+            <img class="fragment fade-in"  src="assets/Images/SPIR-V/triangle.png" style="height: 512px">
+          </div>
+        </section>
+
+      </section>
+
+    <section>
+  </div>
+</div>
+
+
+
+<script src="dist/reveal.js"></script>
+<script src="plugin/zoom/zoom.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/math/math.js"></script>
+<script src="plugin/menu/menu.js"></script>
+<script src="plugin/pointer/pointer.js"></script>
+<script src="plugin/drawer/drawer.js"></script>
+<script src="plugin/pwr-theme/pwr-theme.js"></script>
+<script>
+  // More info about config & dependencies:
+  // - https://github.com/hakimel/reveal.js#configuration
+  // - https://github.com/hakimel/reveal.js#dependencies
+  Reveal.initialize({
+    hash: true,
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    overview: true,
+    center: true,
+    navigationMode: 'default',
+    fragmentInURL: false,
+    embedded: false,
+    preloadIframes: null,
+    autoSlide: 0,
+    autoSlideStoppable: true,
+    defaultTiming: 120,
+    mouseWheel: true,
+    previewLinks: false,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    transitionSpeed: 'default', // default/fast/slow
+    backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+    display: 'block',
+    math: {
+      // mathjax: 'plugin/math/MathJax.js', // You can download MathJax locally and keep it in plugins folder
+      config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
+      // pass other options into `MathJax.Hub.Config()`
+      TeX: { Macros: { RR: "{\\bf R}" } }
+    },
+    menu: {
+      themes: [
+        { name: 'Default', theme: 'dist/theme/black.css' },
+        { name: 'PWR', theme: 'dist/theme/pwr-theme.css' },
+        { name: 'WUST', theme: 'dist/theme/wust-theme.css' },
+        { name: 'Dark', theme: 'dist/theme/blood.css' },
+        { name: 'Simple', theme: 'dist/theme/simple.css' },
+        { name: 'Serif', theme: 'dist/theme/serif.css' },
+        { name: 'Night', theme: 'dist/theme/night.css' },
+        { name: 'Blue', theme: 'dist/theme/sky.css' },
+      ]
+    },
+    pointer: {
+      color: "red",
+      pointerSize: 10,
+      alwaysVisible: true
+    },
+    drawer: {
+      toggleBoardKey: "t",
+      toggleDrawKey: "d",
+      pathSize: 4
+    },
+    plugins: [ RevealZoom, RevealMarkdown, RevealHighlight, RevealNotes, RevealMath, RevealMenu, RevealPointer, RevealDrawer, PWRTheme ]
+  });
+</script>
+</body>
+</html>
